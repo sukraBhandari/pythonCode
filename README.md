@@ -2,5 +2,5 @@ pythonCode
 ==========
 
 Python Practice
-This repo includes code for some of the programming question asked on stackoverflow.
-I have used python as my programming language.
+I am trying to solve some of the programming questions asked in the stackoverflow website.
+As title suggests, I am using Python.
