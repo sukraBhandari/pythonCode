@@ -1,0 +1,17 @@
+#print all prime number from 1 to 10000
+
+import math
+def prime(n):
+  if n < 2:
+    return False
+  for each in range(2. int(math.sqrt(n))+1):
+    if n%each == 0:
+      return False
+  return True
+
+def checkPrime():
+  l = []
+  for i in range(10000):
+    if prime(i):
+      l.append(i)
+  print l
