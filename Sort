@@ -45,3 +45,16 @@ def selectionSort():
     
 #mergeSort
 data = [99,101,37,54,2,93,8,1,17,13,44]
+
+******
+
+
+#quickSort
+data = [99,101,37,54,2,93,8,1,17,13,44]
+def quickSort(data):
+    if not data:
+        return []
+    pivot = data[0]
+    less = [x for x in data if x < pivot]
+    more = [x for x in data if x >= pivot]
+    return quickSort(less) + [pivot] + quickSort(more)
