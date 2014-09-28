@@ -74,8 +74,6 @@ class LinkedList(object):
             count+=1
         temp.next = temp.next.next
 
-
-
     def printData(self):
         if self.head is not None:
             self.head.printData();
